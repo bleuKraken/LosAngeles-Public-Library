@@ -16,3 +16,26 @@ li {
   font-size: 1.1rem;
   height: 50px;
 }
+
+#library-photo {
+  background-size: 100%;
+  nim-height: 200px;
+  background-url("");
+  background-attachment: fixed;
+  background-position: 0 -300px; /* TODO: MAYBE DELETE */
+  text-align: center;
+  color: #fff;
+}
+
+
+/*
+#how-we-teach-header {
+  background-size: 100%;
+  min-height: 200px;
+  background: url("https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80");
+  background-attachment: fixed;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+*/
