@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- BOOTSTRAP -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!-- LOCAL CSS -->
   <link rel="stylesheet" href="css/style.css">
   <title>Bootstrap Theme</title>
@@ -30,17 +30,16 @@
       </p>
       <!-- SECOND BUTTON -->
       <p class="m-0 text-light px-3">
-      City Directory
+        City Directory
       </p>
     </div>
   </nav>
 
-  <!-- SECTION NAVBAR -->
+  <!-- SECTION NAVBAR
   <setion>
     <div class="container-fluid p-0">
       <div class="row">
         <div class="col">
-          <!-- LIST ITEMS -->
           <ul id="directory" class="d-flex justify-content-center text-white my-0">
             <li class="m-2 ">
               Collections and resources
@@ -65,6 +64,118 @@
       </div>
     </div>
   </setion>
+-->
+
+  <!-- NAVIGATION LINKS -->
+  <div id="nav-links" class="d-flex justify-content-center bg-primary">
+    <div class="dropdown mydropdowncss">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Collections and Resources <span class="caret"></span></a>
+      <!-- LIST SHOWN WHEN HOVERING -->
+      <ul class="dropdown-menu">
+        <div class="row">
+          <div class="col">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">e-Media</a></li>
+          </div>
+          <div class="col">
+            <li><a href="#">Explore LA</a></li>
+            <li><a href="#">Government Documents</a></li>
+            <li><a href="#">LAPL Indexes</a></li>
+          </div>
+          <div class="col">
+            <li><a href="#">LAPL Reads</a></li>
+            <li><a href="#">LAPL Writes</a></li>
+            <li><a href="#">Library Blog</a></li>
+          </div>
+          <div class="col">
+            <li><a href="#">Memory Lab</a></li>
+            <li><a href="#">Octavia Lab</a></li>
+            <li><a href="#">Explore LA</a></li>
+            <li><a href="#">Research & Homework</a></li>
+          </div>
+          <div class="col">
+            <li><a href="#">Research Guides</a></li>
+            <li><a href="#">Tessa: Photo & Digital Collections</a></li>
+            <li><a href="#">Web Resources</a></li>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!-- LOCATION AND HOURS -->
+    <div class="dropdown mydropdowncss">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Locations and Hours <span class="caret"></span></a>
+      <ul class="dropdown-menu px-3">
+        <li><a href="#">All Branches</a></li>
+        <li><a href="#">Central Library</a></li>
+        <li><a href="#">Docent Tours (Central)</a></li>
+        <li><a href="#">Facility Rentals</a></li>
+        <li><a href="#">Holiday Closures</a></li>
+      </ul>
+    </div>
+
+    <!-- EVENTS DROPDOWN TODO: MOVE THIS DORPDOWN TO THE LEFT-->
+    <div class="dropdown mydropdowncss">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <div class="row">
+          <div class="col">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">ALOUD Lecture Series</a></li>
+          </div>
+          <div class="col">
+            <li><a href="#">Calendar of Events</a></li>
+            <li><a href="#">Celebrations</a></li>
+          </div>
+          <div class="col">
+            <li><a href="#">Exhibits For Kids</a></li>
+            <li><a href="#">LA Made Preschool Events</a></li>
+          </div>
+          <div class="col">
+            <li><a href="#">STEAM</a></li>
+            <li><a href="#">Teen Events</a></li>
+          </div>
+        </div>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="dropdown mydropdowncss">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Get Involved <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mydropdowncss">
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">About LAPL <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="btn btn-primary">
+      Library Store
+    </div>
+  </div>
+
 
   <!-- HEADER -->
   <div class="container-fluid">
@@ -106,31 +217,34 @@
       </div>
     </div>
   </section>
-  <!-- SECTION: HOW WE TEACH
 
-  <section id="how-we-teach-header">
-    <div class="dark-overlay px-5 pt-3">
-      <div class="row">
-        <div class="col">
-          <div class="container p-5">
-            <h1>How We Teach</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
--->
 
 
   <!-- SECCION CONTENT -->
-  <section>
-    <div class="container">
+  <section id="link-list">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-2">
-        Col 2
+        <div class="col-md-3">
+          <div class="list-group">
+            <a href="https://www.lapl.org/en-espanol" class="list-group-item list-group-item-action">Espanol</a>
+            <a href="https://www.lapl.org/diploma" class="list-group-item list-group-item-action">Get Your Diploma</a>
+            <a href="https://www.lapl.org/kids" class="list-group-item list-group-item-action">Kids & Parents</a>
+            <a href="https://www.lapl.org/teens" class="list-group-item list-group-item-action">Teens</a>
+            <a href="https://www.lapl.org/teachers" class="list-group-item list-group-item-action">Teachers</a>
+            <a href="https://www.lapl.org/job-seekers" class="list-group-item list-group-item-action">Job Seekers</a>
+            <a href="https://www.lapl.org/literacy" class="list-group-item list-group-item-action">Adult Literacy</a>
+            <a href="https://www.lapl.org/newamericans" class="list-group-item list-group-item-action">New Americans</a>
+            <a href="https://www.lapl.org/veterans" class="list-group-item list-group-item-action">Verterans Resources</a>
+            <a href="https://www.lapl.org/health" class="list-group-item list-group-item-action">Health Matters</a>
+            <a href="https://www.lapl.org/money-matters" class="list-group-item list-group-item-action">Money Matters</a>
+            <a href="https://www.lapl.org/collections-resources/online-learning" class="list-group-item list-group-item-action">Online Learning</a>
+            <a href="https://www.lapl.org/homeless-resources" class="list-group-item list-group-item-action">Homeless Resources</a>
+            <a href="https://www.lapl.org/about-lapl/ada" class="list-group-item list-group-item-action">ADA Services</a>
+
+          </div>
 
         </div>
-        <div class="col-md-10">
+        <div class="col-md-9">
           Col 10
         </div>
       </div>
@@ -146,13 +260,11 @@
 
 
 
-
   <!-- FONT AWSOME -->
   <script src="https://kit.fontawesome.com/10a1582225.js"></script>
   <!-- jquery -->
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <!-- JAVASCRIPT FOR BOOTSTRAP CLASSES -->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- JAVASCRIPT FOR BOOTSTRAP CLASSES -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- JAVASCRIPT -->
   <script>

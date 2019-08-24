@@ -1,3 +1,7 @@
+* {
+border-radius: 0 !important;
+}
+
 li {
   list-style-type: none;
   text-align: center;
@@ -17,6 +21,37 @@ li {
   height: 50px;
 }
 
+#nav-links {
+height: 50px;
+}
+
+
+
+.mydropdowncss:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+
+ .dropdown-menu li a{
+   /* border: 1px solid black;  TODO: DELETE. USED FOR DEBUGGING */
+ }
+
+ .dropdown .row {
+   width: 900px;
+ }
+
+
+
+/* ******************************************************************
+.mydropdowncss:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+ *************************************************************** */
+
+
 #account-buttons {
   background-color: rgb(186, 85, 28);
 }
@@ -29,6 +64,11 @@ li {
   background-position: center;
   text-align: center;
   color: #fff;
+}
+
+#link-list {
+  font-size: 0.9rem;
+
 }
 
 
