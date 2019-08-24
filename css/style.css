@@ -4,7 +4,7 @@ li {
 }
 
 .header {
-  height: 100px;
+  height: 80px;
   background-color: rgb(186, 85, 28);
   text-color: white;
   text-align: center;
@@ -17,12 +17,16 @@ li {
   height: 50px;
 }
 
+#account-buttons {
+  background-color: rgb(186, 85, 28);
+}
+
 #library-photo {
   background-size: 100%;
-  nim-height: 200px;
-  background-url("");
+  min-height: 400px;
+  background: url("https://raw.githubusercontent.com/erickkg/LosAngeles-Public-Library/master/img/library.jpeg");
   background-attachment: fixed;
-  background-position: 0 -300px; /* TODO: MAYBE DELETE */
+  background-position: center;
   text-align: center;
   color: #fff;
 }
