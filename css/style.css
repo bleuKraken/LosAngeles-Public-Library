@@ -1,0 +1,18 @@
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.header {
+  height: 100px;
+  background-color: rgb(186, 85, 28);
+  text-color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#directory {
+  background-color: rgb(29, 113, 213);
+  font-size: 1.1rem;
+  height: 50px;
+}
