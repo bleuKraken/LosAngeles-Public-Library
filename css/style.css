@@ -25,6 +25,22 @@ li {
 height: 50px;
 }
 
+#locations-and-hours-dropdown {
+  margin-left: -250px;
+}
+
+#events-dropdown {
+  margin-left: -410px;
+}
+
+#get-involved-dropdown {
+  margin-left: -500px;
+}
+
+#about-lapl-dropdown {
+  margin-left: -635px;
+}
+
 
 
 .mydropdowncss:hover .dropdown-menu {
