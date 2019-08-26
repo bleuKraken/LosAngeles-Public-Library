@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!-- LOCAL CSS -->
   <link rel="stylesheet" href="css/style.css">
-  <title>Bootstrap Theme</title>
+  <title>LAPL</title>
 </head>
 
 <body>
@@ -24,7 +24,6 @@
     <a class="navbar-brand" href="#">Los Angeles</a>
     <!-- FIRST BUTTON -->
     <div class="float-left d-flex justify-content-end">
-
       <p class="m-0 text-light px-3">
         City Servies
       </p>
@@ -166,7 +165,7 @@
   </div>
 
   <!-- HEADER -->
-  <div class="container-fluid">
+  <div class="container-fluid p-0">
     <div class="row">
       <div class="col p-0">
         <p class="header pt-3 text-white mb-0">
@@ -174,6 +173,10 @@
         </p>
       </div>
     </div>
+    <div class="book-search row-fluid m-0 pb-3">
+      <button class="btn btn-outline-dark bg-dark text-light font-weight-bold p-3" type="button">SEARCH FOR BOOKS AND MOVIES</button>
+    </div>
+
   </div>
 
   <!-- TODO: V2.0 MERGE BUTTONS WITHIN THE SECTION ABOVE. LESS CODE.
@@ -193,6 +196,7 @@
     </div>
   </div>
 
+  <!-- LARGE PHOTO OF LIBRARY -->
   <section id="library-photo">
     <div class="dark-overlay px-5 pt-3">
       <div class="row">
@@ -207,14 +211,13 @@
     </div>
   </section>
 
-
-
   <!-- SECCION CONTENT -->
   <section id="link-list">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3">
           <div class="list-group">
+            <span class="p-3 font-weight-bold bg-primary text-center text-lg mt-3">Directory</span>
             <a href="https://www.lapl.org/en-espanol" class="list-group-item list-group-item-action">Espanol</a>
             <a href="https://www.lapl.org/diploma" class="list-group-item list-group-item-action">Get Your Diploma</a>
             <a href="https://www.lapl.org/kids" class="list-group-item list-group-item-action">Kids & Parents</a>
@@ -229,12 +232,40 @@
             <a href="https://www.lapl.org/collections-resources/online-learning" class="list-group-item list-group-item-action">Online Learning</a>
             <a href="https://www.lapl.org/homeless-resources" class="list-group-item list-group-item-action">Homeless Resources</a>
             <a href="https://www.lapl.org/about-lapl/ada" class="list-group-item list-group-item-action">ADA Services</a>
-
           </div>
-
         </div>
         <div class="col-md-9">
-          Col 10
+          <div class="bg-light mt-3 ">
+            <header class="d-block text-xxlg font-weight-bold p-2 text-center">Whats New At LAPL</header>
+            <div class="border mb-3"></div>
+            <!-- ITEM -->
+            <div class="p-3">
+              <i class="icon fas fa-box-open display-4 m-3"></i>
+              <a href="#" class="text-xlg ">It's Your Lucky Day</a>
+              <p>
+                High-interest & high-request titles available now for 7 day checkout on Overdrive.
+              </p>
+            </div>
+            <!-- ITEM -->
+            <div class="p-3">
+              <i class="icon fas fa-book display-4 m-3"></i>
+              <a href="#" class="text-xlg ">Check Out Zines</a>
+              <p>
+                We have zines for all ages by local and international zinesters.
+              </p>
+            </div>
+            <!-- ITEM -->
+            <div class="p-3">
+              <i class="icon fas fa-vote-yea display-4 m-3"></i>
+              <a href="#" class="text-xlg ">Register to Vote</a>
+              <p>
+                Sign up to receive election reminders, get registered to vote, and apply for your absentee ballot.
+              </p>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
