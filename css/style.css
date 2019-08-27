@@ -1,6 +1,10 @@
 * {
-border-radius: 0 !important;
-font-size: 1.1rem;
+  border-radius: 0 !important;
+  font-size: 1.05rem;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 body {
@@ -22,6 +26,19 @@ li {
 height: 50px;
 }
 
+/* ADDES BOLD WHEN HOVERING OVER LINKS INSIDE OF NAV */
+#collections-and-resources-dropdown li:hover,
+#locations-and-hours-dropdown li:hover,
+#events-dropdown li:hover,
+#get-involved-dropdown li:hover,
+#about-lapl-dropdown li:hover
+ {
+  font-weight: bold;
+}
+
+#collections-and-resources-dropdown {
+  width: 900px;
+}
 #locations-and-hours-dropdown {
   margin-left: -250px;
 }
@@ -38,6 +55,12 @@ height: 50px;
   margin-left: -635px;
 }
 
+.white-hover-shadow:hover {
+    -moz-box-shadow: 0 0 20px #ccc;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #fff;
+
+}
 .text-lg {
   font-size: 1.2rem;
 }
@@ -90,6 +113,10 @@ height: 50px;
  .icon {
    width: 80px;
    text-align: center;
+ }
+
+ .list-group a:hover {
+   font-weight: bold;
  }
 
 
