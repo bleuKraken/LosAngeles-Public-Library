@@ -57,6 +57,17 @@ height: 50px;
   margin: 0;
 }
 
+.btn-light-transition {
+  color: white;
+  font-weight: bold;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.btn-light-transition:hover {
+  color: black !important;
+  background-color: #fff;
+}
 .mydropdowncss:hover .dropdown-menu {
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
