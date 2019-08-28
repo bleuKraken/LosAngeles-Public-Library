@@ -8,7 +8,8 @@ a:hover {
 }
 
 body {
-  background-color:rgb(186, 85, 28);
+  background-color:bf211e
+  background-color: #bf211e;
 }
 
 li {
@@ -17,14 +18,18 @@ li {
 }
 
 #directory {
-  background-color: rgb(29, 113, 213);
+  background-color: rgb(29, 113, 213); /* TODO: What does this do? Not showing. */
   font-size: 1.1rem;
-  height: 50px;
+  height: 100px;
 }
 
 #nav-links {
-height: 50px;
+  background-color: #065a82 !important;
+  height: 60px;
+
 }
+
+
 
 /* ADDES BOLD WHEN HOVERING OVER LINKS INSIDE OF NAV */
 #collections-and-resources-dropdown li:hover,
@@ -73,13 +78,31 @@ height: 50px;
 
 .header {
   height: 80px;
-  background-color: rgb(186, 85, 28);
-  text-color: white;
+  background-color: #bf211e;
+  color: white;
   text-align: center;
   font-size: 2rem;
   margin: 0;
 }
 
+.max-height {
+  height: 100%;
+}
+
+.bg-darkest {
+  background-color: #080705;
+}
+
+.btn-dropdown {
+  color: white;
+  background-color: #065a82;
+  height: 100%;
+}
+
+.btn-dropdown:hover {
+
+  background-color: #eaeaea !important;
+}
 .btn-light-transition {
   color: white;
   font-weight: bold;
@@ -88,12 +111,12 @@ height: 50px;
 }
 
 .btn-light-transition:hover {
-  color: black !important;
+  color: black;
   background-color: #fff;
 }
 .mydropdowncss:hover .dropdown-menu {
     display: block;
-    margin-top: 0; // remove the gap so it doesn't close
+    margin-top: 0; /* removes gap, prevents closeing. */
  }
 
 
@@ -107,8 +130,13 @@ height: 50px;
 
  .book-search {
   text-align: center;
-  background-color: rgb(186, 85, 28);
+  background-color: #bf211e;
  }
+
+  .store-button {
+  height: 60px;
+  padding: 35px;
+  }
 
  .icon {
    width: 80px;
@@ -120,18 +148,8 @@ height: 50px;
  }
 
 
-
-/* ******************************************************************
-.mydropdowncss:hover .dropdown-menu {
-    display: block;
-    margin-top: 0; // remove the gap so it doesn't close
- }
-
- *************************************************************** */
-
-
 #account-buttons {
-  background-color: rgb(186, 85, 28);
+  background-color: #bf211e;
 }
 
 #library-photo {
@@ -161,3 +179,9 @@ height: 50px;
   color: #fff;
 }
 */
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
+}
