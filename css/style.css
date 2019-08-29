@@ -27,6 +27,7 @@ li {
   height: 60px;
 }
 
+
 /* ADDES BOLD WHEN HOVERING OVER LINKS INSIDE OF NAV */
 #collections-and-resources-dropdown li:hover,
 #locations-and-hours-dropdown li:hover,
@@ -98,6 +99,11 @@ li {
 
 }
 
+/* THIS PUSHES NAV BUTTON DOWN TO THE CENTER */
+.btn-main-dropdown {
+  padding-top: 12px;
+}
+
 .btn-dropdown:hover {
   background-color: #eaeaea !important;
 }
@@ -132,8 +138,9 @@ li {
 }
 
 .store-button {
-  margin-left: 80px;
+  margin-left: 40px;
   margin-right: 0;
+  padding: 0;
 }
 
 .store-button:hover {
@@ -141,6 +148,7 @@ li {
 }
 
  .store-button-text {
+   margin-top: 7px;
   color: aliceblue;
  }
 
