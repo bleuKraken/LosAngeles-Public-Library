@@ -1,3 +1,11 @@
+/*
+COLORS SCHEME USED
+color: rgb(103, 181, 156);
+color: rgb(7, 10, 4);
+color: rgb(204, 194, 197);
+*/
+
+/* ############################# TAGS BELOW ############################# */
 * {
   border-radius: 0 !important;
   font-size: 1.05rem;
@@ -7,26 +15,21 @@ a:hover {
   text-decoration: none;
 }
 
-body {
-  background-color: rgb(204, 194, 197);
-}
-
 li {
   list-style-type: none;
   text-align: center;
 }
 
+/* ############################# ID'S BELOW ############################# */
+
 #directory {
-  /* background-color: rgb(139, 171, 35); */
   font-size: 1.1rem;
   height: 100px;
 }
 
 #nav-links {
-  background-color: rgb(103, 181, 156);
   height: 60px;
 }
-
 
 /* ADDES BOLD WHEN HOVERING OVER LINKS INSIDE OF NAV */
 #collections-and-resources-dropdown li:hover,
@@ -57,10 +60,75 @@ li {
   margin-left: -635px;
 }
 
+#library-photo {
+  background-size: 100%;
+  min-height: 450px;
+  background: url("https://raw.githubusercontent.com/erickkg/LosAngeles-Public-Library/master/img/library.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+#link-list {
+  font-size: 0.9rem;
+}
+
+/* ############################# CLASSES BELOW ############################# */
+
+/* ALL TEXT COLORS BELOW */
+.color-primary {
+  color: rgb(238, 238, 238);
+}
+.color-secondary {
+  color: rgb(103, 181, 156);
+}
+.color-success {
+}
+.color-info {
+  color: rgb(213, 178, 101);
+}
+.color-warning {
+}
+.color-danger {
+}
+.color-dark {
+  color: rgb(7, 10, 4);
+}
+
+/* ALL BACKGROUND COLORS */
+.background-primary {
+  background-color: rgb(238, 238, 238);
+}
+.background-secondary {
+  background-color: rgb(103, 181, 156);
+}
+.background-color-success {
+}
+.background-info {
+  background-color: rgb(213, 178, 101);
+}
+.background-warning {
+}
+.-danger {
+}
+.background-dark {
+  background-color: rgb(7, 10, 4);
+}
+.btn-dropdown:hover {
+  background-color:  rgb(238, 238, 238) !important;
+}
 .white-hover-shadow:hover {
   -moz-box-shadow: 0 0 20px #ccc;
   -webkit-box-shadow: 0 0 20px #ccc;
   box-shadow: 0 0 20px #fff;
+}
+.btn-light-transition:hover {
+  color: black;
+  background-color: rgb(213, 178, 101);
+}
+.background-info-transparent {
+  background-color: rgb(7, 10, 4, 0.5);
 }
 
 .text-lg {
@@ -78,7 +146,6 @@ li {
 .header {
   font-family: 'Gayathri', sans-serif;
   height: 80px;
-  color: white;
   text-align: center;
   font-weight: bolder;
   font-size: 2.5rem;
@@ -89,14 +156,8 @@ li {
   height: 100%;
 }
 
-.bg-darkest {
-  background-color: #080705;
-}
-
 .btn-dropdown {
-  color: white;
   height: 100%;
-
 }
 
 /* THIS PUSHES NAV BUTTON DOWN TO THE CENTER */
@@ -104,23 +165,17 @@ li {
   padding-top: 12px;
 }
 
-.btn-dropdown:hover {
-  background-color: #eaeaea !important;
-}
+
 
 .btn-light-transition {
   color: #080705;
   background-color: rgb(184, 153, 83, 0.6);
   font-size: 2rem;
   font-weight: bold;
-  border: 1px solid #fff;
+  border: 1px solid black;
   padding: 10px;
 }
 
-.btn-light-transition:hover {
-  color: black;
-  background-color: #fff;
-}
 
 .mydropdowncss:hover .dropdown-menu {
   display: block;
@@ -147,10 +202,10 @@ li {
   background-color: rgb(65, 85, 77, 0.5);
 }
 
- .store-button-text {
-   margin-top: 7px;
+.store-button-text {
+  margin-top: 7px;
   color: aliceblue;
- }
+}
 
 .icon {
   width: 80px;
@@ -161,23 +216,8 @@ li {
   font-weight: bold;
 }
 
-#account-buttons {
-  background-color: #bf211e;
-}
+/* ############################# MEDIA BELOW ############################# */
 
-#library-photo {
-  background-size: 100%;
-  min-height: 450px;
-  background: url("https://raw.githubusercontent.com/erickkg/LosAngeles-Public-Library/master/img/library.jpeg");
-  background-attachment: fixed;
-  background-position: center;
-  text-align: center;
-  color: #fff;
-}
-
-#link-list {
-  font-size: 0.9rem;
-}
 
 @media only screen and (max-width: 400px) {
   body {

@@ -5,33 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-
   <!-- GOOGLE FONTS -->
-
-
-
-
   <!-- LOCAL CSS -->
   <link rel="stylesheet" href="css/style.css">
   <title>LAPL</title>
 </head>
 
-<body>
-  <!-- STORY BEGINS -->
-  <!-- NOTES
-  TODO: CTRL+SHIFT+h = PREVIEW WINDOWS
+<body class="background-secondary">
 
--->
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-dark bg-darkest">
+  <!-- STORY BEGINS WITH NAVBAR-->
+  <nav class="navbar navbar-dark background-dark">
     <a class="navbar-brand" href="#">Los Angeles</a>
     <!-- FIRST BUTTON -->
     <div class="float-left ">
-      <a href="https://myla311.lacity.org/portal/faces/home;jsessionid=-n7WYzAheYxY45Xj0_uus1VcgtAvYWVnuneiZhis2FaFSThStaKI!1694912831!2071406821?_afrLoop=8211565522905031&_afrWindowMode=0&_afrWindowId=null&_adf.ctrl-state=db2tdnz3u_1#!%40%40%3F_afrWindowId%3Dnull%26_afrLoop%3D8211565522905031%26_afrWindowMode%3D0%26_adf.ctrl-state%3Ddb2tdnz3u_5" class="m-0 text-light px-5">
+      <a href="https://myla311.lacity.org/portal/faces/home;jsessionid=-n7WYzAheYxY45Xj0_uus1VcgtAvYWVnuneiZhis2FaFSThStaKI!1694912831!2071406821?_afrLoop=8211565522905031&_afrWindowMode=0&_afrWindowId=null&_adf.ctrl-state=db2tdnz3u_1#!%40%40%3F_afrWindowId%3Dnull%26_afrLoop%3D8211565522905031%26_afrWindowMode%3D0%26_adf.ctrl-state%3Ddb2tdnz3u_5"
+        class="m-0 text-light px-5">
         City Services
       </a>
       <!-- SECOND BUTTON -->
@@ -41,12 +31,13 @@
     </div>
   </nav>
 
+
   <!-- NAVIGATION LINKS -->
   <section class="">
     <div id="nav-links" class="d-flex justify-content-center">
       <!-- COLLECTIONS AND RESOURCES DROPDOWN -->
       <div class="dropdown mydropdowncss">
-        <a href="https://www.lapl.org/collections-resources" class="btn btn-dropdown btn-main-dropdown dropdown-toggle" data-toggle="dropdown">Collections and Resources <span class="caret"></span></a>
+        <a href="https://www.lapl.org/collections-resources" class="btn btn-dropdown color-primary btn-main-dropdown dropdown-toggle" data-toggle="dropdown">Collections and Resources <span class="caret"></span></a>
         <ul id="collections-and-resources-dropdown" class="dropdown-menu">
           <div class="row">
             <div class="col">
@@ -60,6 +51,7 @@
               <li><a href="https://www.lapl.org/collections-resources/lapl-indexes">LAPL Indexes</a></li>
             </div>
             <div class="col">
+
               <li><a href="https://www.lapl.org/collections-resources/lapl-reads">LAPL Reads</a></li>
               <li><a href="https://www.lapl.org/collections-resources/lapl-writes">LAPL Writes</a></li>
               <li><a href="https://www.lapl.org/collections-resources/blogs/lapl">Library Blog</a></li>
@@ -79,7 +71,7 @@
       </div>
       <!-- LOCATION AND HOURS DROPDOWN -->
       <div class="dropdown mydropdowncss">
-        <a href="https://www.lapl.org/branches" class="btn btn-dropdown btn-main-dropdown dropdown-toggle" data-toggle="dropdown">Locations and Hours <span class="caret"></span></a>
+        <a href="https://www.lapl.org/branches" class="btn btn-dropdown color-primary btn-main-dropdown dropdown-toggle" data-toggle="dropdown">Locations and Hours <span class="caret"></span></a>
         <ul id="locations-and-hours-dropdown" class="dropdown-menu px-3">
           <div class="row">
             <div class="col">
@@ -100,7 +92,7 @@
       </div>
       <!-- EVENTS DROPDOWN -->
       <div class="dropdown mydropdowncss">
-        <a href="https://www.lapl.org/events" class="btn  btn-dropdown btn-main-dropdown dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
+        <a href="https://www.lapl.org/events" class="btn  btn-dropdown color-primary btn-main-dropdown dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
         <ul id="events-dropdown" class="dropdown-menu">
           <div class="row">
             <div class="col">
@@ -126,7 +118,7 @@
       </div>
       <!-- GET INVOLVED DROPDOWN -->
       <div class="dropdown mydropdowncss">
-        <a href="#" class="btn  btn-dropdown btn-main-dropdown dropdown-toggle" data-toggle="dropdown">Get Involved <span class="caret"></span></a>
+        <a href="https://www.lapl.org/get-involved" class="btn btn-dropdown color-primary btn-main-dropdown dropdown-toggle" data-toggle="dropdown">Get Involved <span class="caret"></span></a>
         <ul id="get-involved-dropdown" class="dropdown-menu">
           <div class="row">
             <div class="col">
@@ -146,7 +138,7 @@
       </div>
       <!-- ABOUT LAPL DROPDOWN -->
       <div class="dropdown mydropdowncss">
-        <a href="https://www.lapl.org/about-lapl/about-library" class="btn btn-dropdown btn-main-dropdown dropdown-toggle" data-toggle="dropdown">About LAPL <span class="caret"></span></a>
+        <a href="https://www.lapl.org/about-lapl/about-library" class="btn btn-dropdown color-primary btn-main-dropdown dropdown-toggle" data-toggle="dropdown">About LAPL <span class="caret"></span></a>
         <ul id="about-lapl-dropdown" class="dropdown-menu">
           <div class="row">
             <div class="col">
@@ -174,55 +166,50 @@
     </div>
   </section>
 
-
   <!-- LARGE PHOTO OF LIBRARY -->
   <section id="library-photo">
-    <div class="dark-overlay px-5 pt-3 container">
+    <div class="px-5 pt-3 container">
+      <!-- BUTOTNS -->
       <div class="row">
         <div class="col">
-            <div class="d-flex justify-content-between pt-2">
-              <a href="https://www.lapl.org/about-lapl/borrower-services#apply" class="btn-light-transition ">
-                Get Library Card
-              </a>
-              <a href="https://www.lapl.org/about-lapl/borrower-services#apply" class="btn-light-transition">
-                My Library Account
-              </a>
-            </div>
-        </div>
-      </div>
-
-
-
-
-
-      <!-- CHANGE ME: NO NAME -->
-      <div class="container-fluid p-0">
-        <div class="row">
-          <div class="col p-0">
-            <p class="header pt-5 text-white mb-0 ">
-              Los Angeles Public Library
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="book-search row-fluid">
-              <a href="https://ls2pac.lapl.org/?section=search&term=" class="white-hover-shadow btn btn-outline-dark bg-darkest text-light font-weight-bold p-3">SEARCH FOR BOOKS AND MOVIES</a>
-            </div>
+          <div class="d-flex justify-content-between pt-2">
+            <a href="https://www.lapl.org/about-lapl/borrower-services#apply" class="btn-light-transition ">
+              Get Library Card
+            </a>
+            <a href="https://www.lapl.org/about-lapl/borrower-services#apply" class="btn-light-transition">
+              My Library Account
+            </a>
           </div>
         </div>
       </div>
-      <!-- FROM .CONTAINER -->
+      <!-- TITLE -->
+      <div class="row">
+        <div class="col p-0">
+          <p class="header pt-5 text-white mb-0 ">
+            Los Angeles Public Library
+          </p>
+        </div>
+      </div>
+      <!-- SEARCH BUTTON -->
+      <div class="row">
+        <div class="col">
+          <div class="book-search row-fluid">
+            <a href="https://ls2pac.lapl.org/?section=search&term=" class="white-hover-shadow btn btn-outline-dark background-dark-transparent text-light font-weight-bold p-3">SEARCH FOR BOOKS AND MOVIES</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- SECCION CONTENT -->
   <section id="link-list">
     <div class="container-fluid">
+      <!-- ROW: TWO COLUMS -->
       <div class="row">
+        <!-- COL SECTIONS DIRECTORY -->
         <div class="col-md-3">
           <div class="list-group">
-            <span class="p-3 font-weight-bold btn-dropdown text-center text-lg mt-3">Directory</span>
+            <span class="p-3 font-weight-bold background-dark text-light text-center text-lg mt-3">Sections</span>
             <a href="https://www.lapl.org/en-espanol" class="list-group-item list-group-item-action">Espanol</a>
             <a href="https://www.lapl.org/diploma" class="list-group-item list-group-item-action">Get Your Diploma</a>
             <a href="https://www.lapl.org/kids" class="list-group-item list-group-item-action">Kids & Parents</a>
@@ -239,9 +226,11 @@
             <a href="https://www.lapl.org/about-lapl/ada" class="list-group-item list-group-item-action">ADA Services</a>
           </div>
         </div>
+        <!-- COL SECOND -->
         <div class="col-md-9">
+          <!-- FIRST TAB -->
           <div class="bg-light mt-3">
-            <header class="d-block text-xxlg font-weight-bold p-2 text-center">
+            <header class="background-info d-block text-xxlg font-weight-bold p-2 text-center ">
               Other Resources
             </header>
             <div class="border mb-3">
@@ -252,10 +241,9 @@
               <a href="#">eMedia</a>
             </div>
           </div>
-
           <!-- BLOCK OF WHATS NEW -->
           <div class="bg-light mt-3 ">
-            <header class="d-block text-xxlg font-weight-bold p-2 text-center">Whats New At LAPL</header>
+            <header class="background-info d-block text-xxlg font-weight-bold p-2 text-center">Whats New At LAPL</header>
             <div class="border mb-3"></div>
             <!-- ITEM -->
             <div class="px-3 pb-2">
@@ -289,7 +277,24 @@
     </div>
   </section>
 
-  <footer id="footer" class=" bg-darkest text-light">
+  <!-- SECTION IMAGE -->
+  <section class="background-dark">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center text-lg text-light">Visit Los Angeles Public Library</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="https://source.unsplash.com/1920x1080/?reading,female" class="img-fluid pt-3" alt="book-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" class=" background-dark text-light">
     <div class="container-fluid">
       <!-- TITLE -->
       <div class="row">
@@ -323,7 +328,6 @@
       </div>
       <!-- NOTICE OF DEVELOPER -->
       <div class="row  px-5">
-
         <p class="text-center">
           Disclaimer <br />
           The following website is made for purely educational purposes. I was not paid, nor am I affiliated with Los Angeles Public Library. This site is created to practice my programming skills and implement my
@@ -341,10 +345,6 @@
       </div>
     </div>
   </footer>
-
-
-
-
 
 
 
