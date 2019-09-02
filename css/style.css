@@ -86,7 +86,7 @@ li {
 .color-success {
 }
 .color-info {
-  color: rgb(213, 178, 101);
+  /* color: rgb(137, 164, 84); TODO: MAYBE DELETE, NOT USED*/
 }
 .color-warning {
 }
@@ -106,7 +106,7 @@ li {
 .background-color-success {
 }
 .background-info {
-  background-color: rgb(213, 178, 101);
+  background-color: rgb(238, 102, 88);
 }
 .background-warning {
 }
@@ -131,6 +131,9 @@ li {
   background-color: rgb(7, 10, 4, 0.5);
 }
 
+.background-dark-transparent {
+  background-color: rgb(7, 10, 4, 0.5);
+}
 /* TEXT SIZES */
 .text-lg {
   font-size: 1.2rem;
@@ -140,6 +143,10 @@ li {
 }
 .text-xxlg {
   font-size: 2rem;
+}
+
+.height-800 {
+  height: 800px;
 }
 
 .book-carousel {
@@ -160,7 +167,7 @@ li {
 
 .logo-image {
   height: 50px;
-  margin-right: -300px;
+  margin-right: -500px;
 }
 .max-height {
   height: 100%;
