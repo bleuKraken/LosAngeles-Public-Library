@@ -167,7 +167,7 @@ li {
 
 .logo-image {
   height: 50px;
-  margin-right: -500px;
+  /* margin-right: -500px; */
 }
 .max-height {
   height: 100%;
@@ -235,8 +235,8 @@ li {
 /* ############################# MEDIA BELOW ############################# */
 
 
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: lightblue;
+@media only screen and (max-width: 1000px) {
+  .icon {
+    background-color: green;
   }
 }
